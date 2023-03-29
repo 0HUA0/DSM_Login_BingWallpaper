@@ -1,28 +1,16 @@
 # 设置你的语言
-# set your language(en-US,zh-CN...)
 lang="zh-CN"
 # 如需收集保存壁纸,请去掉下面注释,设置保存文件夹路径
 # 在FileStation里面右键文件夹属性可以看到路径
-# If you want to collect and save Wallpapers, 
-# please remove the comment below and set the savepath.
-# Right click the folder property in FileStation to see the path.
-
 #savepath="/volume1/myshare/wallpaper"
 
 # 如需下载4k分辨率,请设置res=4k
 # 如需下载体积更大的4k以上分辨率的原始图片,请设置res=raw
-# To download 4K resolution, set res=4K
-# To download a larger original picture, set res=raw
-
-#res=4k
+res=4k
 
 # 修改用户桌面壁纸,注释后会替换系统的wallpaper1
 # 你需要清空浏览器缓存查看效果，仅在DSM7.x上测试.
-# Modify user desktop wallpaper.Only test for DMS7.x.
-# System "Wallpaper1" will replaced by remove the comment.
-# You need to clear the browser cache to see the effect.
-
-#desktop=yes
+desktop=yes
 
 echo "[x]Collecting information..."
 pic="https://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1"
